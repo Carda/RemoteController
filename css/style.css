@@ -1,0 +1,20 @@
+/* this file is left blank on purpose, if developer can't find classes he needs in framework, he can customize his
+app adding his own styles here
+ */
+ 
+ .ui-listview .li-has-toggle .ui-toggleswitch {
+	position: absolute;
+	right: 30px;
+	top: 50%;
+	-webkit-transform: translate3d(0, -50%, 0);
+
+}
+
+.ui-listview li input[type="checkbox"]:not(.ui-switch-input),
+.ui-listview li input[type="radio"] {
+	position: absolute;
+	right: 30px;
+	top: 50%;
+	-webkit-transform: translate3d(0, -50%, 0);
+}
+
